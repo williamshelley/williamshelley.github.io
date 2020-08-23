@@ -1,0 +1,13 @@
+#resume {
+  width: 90vw;
+  &.active {
+    width: 90vw;
+  }
+  div {
+    height: fit-content;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

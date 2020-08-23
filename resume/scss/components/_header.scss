@@ -1,0 +1,45 @@
+@import "../resources/colors";
+
+#resume {
+  .header {
+    margin: 0 auto;
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    span {
+      color: $SECONDARY-GOLD;
+    }
+
+    h1,
+    h3,
+    p {
+      text-align: center;
+    }
+
+    .about-me {
+      text-align: center;
+      width: 100%;
+
+      p {
+        width: 15%;
+        display: inline-block;
+        font-size: 1.3vw;
+        margin: 0 0.5vw 0 0;
+
+        a {
+          width: fit-content;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 90%;
+        }
+      }
+
+      .clickable:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}

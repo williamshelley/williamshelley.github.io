@@ -1,0 +1,41 @@
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    > .column {
+      flex-direction: column;
+      width: 100%;
+      margin-left: 8px;
+
+      > div {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        > h3, > a {
+          margin-bottom: 4px;
+        }
+      }
+
+      > p {
+        margin-bottom: 0;
+      }
+    }
+
+    > span {
+      padding: 0;
+
+      > img {
+        max-width: 150px;
+        max-height: 150px;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "../resources/colors";
+
+#resume {
+
+  section {
+    margin-top: 14px;
+    font-size: 14px;
+
+    .project {
+      margin-bottom: 10px;
+    }
+
+    .heading {
+      p {
+        display: inline-block;
+        width: 49%;
+        margin: 0;
+
+        .spacer {
+          font-weight: 100;
+          font-size: 1.3vw;
+          margin: 0 0.5vw;
+        }
+
+        .half-spacer {
+          font-weight: 100;
+          font-size: 1.3vw;
+          margin: 0 0.1vw;
+        }
+      }
+
+      p:first-of-type {
+        text-align: left;
+      }
+
+      p:last-of-type {
+        text-align: right;
+      }
+    }
+
+    h2 {
+      color: $SECONDARY-GOLD;
+    }
+
+    span {
+      font-weight: bold;
+      margin: 0 auto;
+      font-size: 11px;
+    }
+
+    .name {
+      text-transform: uppercase;
+      font-size: 90%;
+    }
+
+    .description {
+      font-style: italic;
+    }
+
+    .heading-description {
+      p {
+        display: inline;
+      }
+    }
+  }
+}
