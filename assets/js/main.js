@@ -398,7 +398,4 @@
 			$main._show(location.hash.substr(1), true);
 		});
 
-	$.get("../../resume/resume.html").then(data => {
-		$("#import-resume").append(data);
-	});
 })(jQuery);
