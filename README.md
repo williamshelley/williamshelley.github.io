@@ -8,9 +8,9 @@
 
 ---
 
-### Apps
+### MacOS Apps
 
-**Ethernet Status**
+[Ethernet Status](https://apps.apple.com/us/app/ethernet-status/id6757445187)
 
 ---
 
